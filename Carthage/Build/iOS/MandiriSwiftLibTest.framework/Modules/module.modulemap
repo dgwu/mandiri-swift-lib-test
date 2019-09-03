@@ -1,0 +1,11 @@
+framework module MandiriSwiftLibTest {
+  umbrella header "MandiriSwiftLibTest.h"
+
+  export *
+  module * { export * }
+}
+
+module MandiriSwiftLibTest.Swift {
+    header "MandiriSwiftLibTest-Swift.h"
+    requires objc
+}
