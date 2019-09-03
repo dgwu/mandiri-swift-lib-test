@@ -10,6 +10,11 @@
 		914BD535231DE8E400ABDD60 /* MandiriSwiftLibTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914BD52B231DE8E300ABDD60 /* MandiriSwiftLibTest.framework */; };
 		914BD53A231DE8E400ABDD60 /* MandiriSwiftLibTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BD539231DE8E400ABDD60 /* MandiriSwiftLibTestTests.swift */; };
 		914BD53C231DE8E400ABDD60 /* MandiriSwiftLibTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 914BD52E231DE8E300ABDD60 /* MandiriSwiftLibTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		914BD54C231DEA8F00ABDD60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BD54B231DEA8F00ABDD60 /* AppDelegate.swift */; };
+		914BD54E231DEA8F00ABDD60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BD54D231DEA8F00ABDD60 /* ViewController.swift */; };
+		914BD551231DEA8F00ABDD60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914BD54F231DEA8F00ABDD60 /* Main.storyboard */; };
+		914BD553231DEA8F00ABDD60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914BD552231DEA8F00ABDD60 /* Assets.xcassets */; };
+		914BD556231DEA8F00ABDD60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914BD554231DEA8F00ABDD60 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,13 @@
 		914BD534231DE8E400ABDD60 /* MandiriSwiftLibTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandiriSwiftLibTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		914BD539231DE8E400ABDD60 /* MandiriSwiftLibTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandiriSwiftLibTestTests.swift; sourceTree = "<group>"; };
 		914BD53B231DE8E400ABDD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914BD549231DEA8F00ABDD60 /* MandiriSwiftLibTestExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandiriSwiftLibTestExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914BD54B231DEA8F00ABDD60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		914BD54D231DEA8F00ABDD60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		914BD550231DEA8F00ABDD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		914BD552231DEA8F00ABDD60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914BD555231DEA8F00ABDD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914BD557231DEA8F00ABDD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		914BD546231DEA8F00ABDD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +74,7 @@
 			children = (
 				914BD52D231DE8E300ABDD60 /* MandiriSwiftLibTest */,
 				914BD538231DE8E400ABDD60 /* MandiriSwiftLibTestTests */,
+				914BD54A231DEA8F00ABDD60 /* MandiriSwiftLibTestExamples */,
 				914BD52C231DE8E300ABDD60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +84,7 @@
 			children = (
 				914BD52B231DE8E300ABDD60 /* MandiriSwiftLibTest.framework */,
 				914BD534231DE8E400ABDD60 /* MandiriSwiftLibTestTests.xctest */,
+				914BD549231DEA8F00ABDD60 /* MandiriSwiftLibTestExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +105,19 @@
 				914BD53B231DE8E400ABDD60 /* Info.plist */,
 			);
 			path = MandiriSwiftLibTestTests;
+			sourceTree = "<group>";
+		};
+		914BD54A231DEA8F00ABDD60 /* MandiriSwiftLibTestExamples */ = {
+			isa = PBXGroup;
+			children = (
+				914BD54B231DEA8F00ABDD60 /* AppDelegate.swift */,
+				914BD54D231DEA8F00ABDD60 /* ViewController.swift */,
+				914BD54F231DEA8F00ABDD60 /* Main.storyboard */,
+				914BD552231DEA8F00ABDD60 /* Assets.xcassets */,
+				914BD554231DEA8F00ABDD60 /* LaunchScreen.storyboard */,
+				914BD557231DEA8F00ABDD60 /* Info.plist */,
+			);
+			path = MandiriSwiftLibTestExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +170,23 @@
 			productReference = 914BD534231DE8E400ABDD60 /* MandiriSwiftLibTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		914BD548231DEA8F00ABDD60 /* MandiriSwiftLibTestExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914BD558231DEA8F00ABDD60 /* Build configuration list for PBXNativeTarget "MandiriSwiftLibTestExamples" */;
+			buildPhases = (
+				914BD545231DEA8F00ABDD60 /* Sources */,
+				914BD546231DEA8F00ABDD60 /* Frameworks */,
+				914BD547231DEA8F00ABDD60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MandiriSwiftLibTestExamples;
+			productName = MandiriSwiftLibTestExamples;
+			productReference = 914BD549231DEA8F00ABDD60 /* MandiriSwiftLibTestExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +203,9 @@
 					914BD533231DE8E400ABDD60 = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					914BD548231DEA8F00ABDD60 = {
+						CreatedOnToolsVersion = 10.3;
+					};
 				};
 			};
 			buildConfigurationList = 914BD525231DE8E300ABDD60 /* Build configuration list for PBXProject "MandiriSwiftLibTest" */;
@@ -160,6 +214,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 914BD521231DE8E300ABDD60;
 			productRefGroup = 914BD52C231DE8E300ABDD60 /* Products */;
@@ -168,6 +223,7 @@
 			targets = (
 				914BD52A231DE8E300ABDD60 /* MandiriSwiftLibTest */,
 				914BD533231DE8E400ABDD60 /* MandiriSwiftLibTestTests */,
+				914BD548231DEA8F00ABDD60 /* MandiriSwiftLibTestExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +240,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914BD547231DEA8F00ABDD60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914BD556231DEA8F00ABDD60 /* LaunchScreen.storyboard in Resources */,
+				914BD553231DEA8F00ABDD60 /* Assets.xcassets in Resources */,
+				914BD551231DEA8F00ABDD60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +271,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		914BD545231DEA8F00ABDD60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914BD54E231DEA8F00ABDD60 /* ViewController.swift in Sources */,
+				914BD54C231DEA8F00ABDD60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -214,6 +289,25 @@
 			targetProxy = 914BD536231DE8E400ABDD60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		914BD54F231DEA8F00ABDD60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914BD550231DEA8F00ABDD60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		914BD554231DEA8F00ABDD60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914BD555231DEA8F00ABDD60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		914BD53D231DE8E400ABDD60 /* Debug */ = {
@@ -424,6 +518,42 @@
 			};
 			name = Release;
 		};
+		914BD559231DEA8F00ABDD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQGP7DU26;
+				INFOPLIST_FILE = MandiriSwiftLibTestExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgunawan.MandiriSwiftLibTestExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		914BD55A231DEA8F00ABDD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DQGP7DU26;
+				INFOPLIST_FILE = MandiriSwiftLibTestExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielgunawan.MandiriSwiftLibTestExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -450,6 +580,15 @@
 			buildConfigurations = (
 				914BD543231DE8E400ABDD60 /* Debug */,
 				914BD544231DE8E400ABDD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914BD558231DEA8F00ABDD60 /* Build configuration list for PBXNativeTarget "MandiriSwiftLibTestExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914BD559231DEA8F00ABDD60 /* Debug */,
+				914BD55A231DEA8F00ABDD60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
