@@ -15,6 +15,7 @@
 		914BD551231DEA8F00ABDD60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914BD54F231DEA8F00ABDD60 /* Main.storyboard */; };
 		914BD553231DEA8F00ABDD60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914BD552231DEA8F00ABDD60 /* Assets.xcassets */; };
 		914BD556231DEA8F00ABDD60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914BD554231DEA8F00ABDD60 /* LaunchScreen.storyboard */; };
+		914BD55C231DF55400ABDD60 /* MandiriSwiftLibTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914BD55B231DF55400ABDD60 /* MandiriSwiftLibTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		914BD552231DEA8F00ABDD60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		914BD555231DEA8F00ABDD60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		914BD557231DEA8F00ABDD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914BD55B231DF55400ABDD60 /* MandiriSwiftLibTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandiriSwiftLibTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				914BD52E231DE8E300ABDD60 /* MandiriSwiftLibTest.h */,
 				914BD52F231DE8E300ABDD60 /* Info.plist */,
+				914BD55B231DF55400ABDD60 /* MandiriSwiftLibTest.swift */,
 			);
 			path = MandiriSwiftLibTest;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					914BD52A231DE8E300ABDD60 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					914BD533231DE8E400ABDD60 = {
 						CreatedOnToolsVersion = 10.3;
@@ -260,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914BD55C231DF55400ABDD60 /* MandiriSwiftLibTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +440,7 @@
 		914BD540231DE8E400ABDD60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -452,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielgunawan.MandiriSwiftLibTest;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +467,7 @@
 		914BD541231DE8E400ABDD60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -485,6 +493,7 @@
 		914BD543231DE8E400ABDD60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DQGP7DU26;
 				INFOPLIST_FILE = MandiriSwiftLibTestTests/Info.plist;
@@ -503,6 +512,7 @@
 		914BD544231DE8E400ABDD60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DQGP7DU26;
 				INFOPLIST_FILE = MandiriSwiftLibTestTests/Info.plist;
