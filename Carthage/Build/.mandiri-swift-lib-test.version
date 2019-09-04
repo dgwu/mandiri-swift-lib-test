@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "0.0.1",
+  "commitish" : "b27954dc586cee6d82d11ac5548803c48351b30c",
   "iOS" : [
     {
       "name" : "MandiriSwiftLibTest",
-      "hash" : "4c02183cf32510309847a1d77349216c64365704890cbda4d753b944dd88a6d8",
+      "hash" : "686e122c0a6d29c518e0c3046ad9874635de25b683641120a1017a1a6a3c3696",
       "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
     }
   ]
